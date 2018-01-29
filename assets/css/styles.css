@@ -1,8 +1,8 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=Rammetto+One');
 
 body{
-    background: linear-gradient(to left,#efc2a8, #8c82a3);
+    background: #efc2a8;
 }
 .input{
     margin-top: -30px;
@@ -579,4 +579,95 @@ img.squareInsideImage2Img{
     opacity:  0.5;
     margin-top: 2px;
     position:  absolute;
+}
+.lineFront{
+    display: none;
+}
+#pokedex{
+    display: none;
+}
+@media (max-width: 770px) {
+    .blockMainRightTop {
+        display: none;
+    }
+
+    .blockMainRight {
+        display: none;
+    }
+    .squareInsideImage {
+        display: none;
+    }
+    #input {
+        display: none;
+    }
+    .squareImageRight{
+        display: none;
+    }
+    .random,.random1,.random2,.random3{
+        display: none;
+    }
+    #text{
+        display: none;
+    }
+    .squareInsideImage2{
+        display: none;
+    }
+    .button{
+        display: none;
+    }
+    .squareGreen{
+        display: none;
+    }
+    .touchBlack{
+        display: none;
+    }
+    .lineBlack1,.lineBlack2{
+        display: none;
+    }
+    .play1,.play2,.up1,.up2,.up3,.up4{
+        display: none;
+    }
+    .squareTinyGreen{
+        margin-left: 271px;
+    }
+    .squareTinyOrange{
+        margin-left: 216px;
+    }
+    .squareTinyRed{
+        margin-left: 162px;
+    }
+    .squareMain{
+        margin-left: 190px;
+    }
+    .blockMainLeftLeft{
+        width: 45px;
+        margin-left: 532px;
+    }
+    .bar1,.bar2,.bar3,.bar4{
+        width: 45px;
+    }
+    #pokedex{
+        display: block;
+        margin-left: 67px;
+        position:  absolute;
+        margin-top: 295px;
+        font-family: pokemon-font;
+        font-size: 75px;
+        font-family: 'Rammetto One', cursive;
+        color: #810b04;
+    }
+    #form-errors{
+        display: none;
+    }
+    .lineFront{
+        display: block;
+        width: 400px;
+        height: 22px;
+        background-color: black;
+        position:  absolute;
+        margin-top: 620px;
+        border-radius:  15px;
+        margin-left: 67px;
+        background-image: linear-gradient(#491212,#721313);
+    }
 }
