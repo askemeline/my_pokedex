@@ -36,10 +36,6 @@ window.onload = function(){
     };
     document.forms['check-form'].onsubmit = function () {
         var valueInput = document.querySelector('#text').value.toLowerCase();
-        var myStr = '';
-
-        console.log(myStr.replace('Alligator', 'gator'));
-
         var isFormValid = false;
 
         for (var i in pokemonList) {
@@ -50,7 +46,6 @@ window.onload = function(){
                 isFormValid = true;
                 blockErrors.innerHTML = "";
             }
-
             else if (valueInput == 83 || valueInput == 'nidoran'.toLowerCase()) {
                 imageUrlImage.src = 'http://www.pokestadium.com/sprites/xy/farfetchd.gif';
             }
@@ -75,9 +70,7 @@ window.onload = function(){
                     div.innerHTML = "";
                     imageUrlImage.src = 'https://pa1.narvii.com/5736/a7de96b45dcc4e8cdf68f7e35ccc68980774c82b_hq.gif';
                 }
-
             }
             return false;
-
     };
 };
