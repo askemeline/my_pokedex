@@ -2,8 +2,7 @@
 
 
 body{
-    background: linear-gradient(45deg,#efc2a8, #8c82a3);
-
+    background: linear-gradient(to left,#efc2a8, #8c82a3);
 }
 .input{
     /* text-align: center; */
@@ -169,13 +168,13 @@ body{
     background-color: white;
 }
 .blockMainLeftLeft{
-    height: 694px;
+    height: 693px;
     width: 100px;
-    margin-left: 481px;
+    margin-left: 477px;
     margin-top: 7px;
-    border-left: 2px solid #8f0800;
+    border-left: 4px solid #8f0800;
     background: linear-gradient(to right,#C82727, #da303d,#C82727);
-    border-right: 2px solid #8f0800;
+    border-right: 4px solid #8f0800;
 }
 .squareInsideImage{
     width: 282px;
@@ -294,7 +293,7 @@ img.squareInsideImage2Img{
     background-color: #8c1805;
 }
 .play1{
-    background-color: black;
+    background-color: #211d1d;
     height: 119px;
     width: 30px;
     margin-top: 347px;
@@ -302,10 +301,10 @@ img.squareInsideImage2Img{
     margin-left: 374px;
 }
 .play2{
-    background-color: black;
+    background-color: #211b1b;
     height: 30px;
     width: 119px;
-    margin-top: -74px;
+    margin-top: -75px;
     border-radius: 5px;
     margin-left: 327px;
 }
@@ -363,6 +362,7 @@ img.squareInsideImage2Img{
     border-radius: 10px;
     margin-left:  56px;
     margin-top: -20px;
+    box-shadow: -7px 7px 19px 8px rgba(27, 42, 21, 0.3) inset;
 }
 .touchBlack{
     margin-left: 49px;
@@ -373,6 +373,7 @@ img.squareInsideImage2Img{
     height: 50px;
     background-color: #425242;
     position: absolute;
+    box-shadow: -7px 2px 10px 1px rgba(0, 0, 0, 0.3) inset;
 }
 .lineBlack1{
     background-color: #dce02e;
@@ -421,6 +422,7 @@ img.squareInsideImage2Img{
     text-align: center;
     border-radius: 5px;
     background: #7289da;
+    box-shadow: 5px 10px 20px -3px rgba(27, 19, 19, 0.3) inset;
     }
 .squareGreen2 {
     background-color: #295329;
@@ -429,6 +431,7 @@ img.squareInsideImage2Img{
     border-radius: 10px;
     margin-left: 293px;
     margin-top: 77px;
+    box-shadow: -7px 7px 19px 8px rgba(27, 42, 21, 0.3) inset;
 }
 .squareGreen3 {
     background-color: #295329;
@@ -436,6 +439,7 @@ img.squareInsideImage2Img{
     width: 275px;
     border-radius: 10px;
     margin-left: 42px;
+    box-shadow: -7px 7px 19px 8px rgba(27, 42, 21, 0.3) inset;
     margin-top: 75px;
 }
 .lineRight1{
@@ -465,6 +469,7 @@ img.squareInsideImage2Img{
     height: 50px;
     background-color: #9ba29b;
     position: absolute;
+    box-shadow: -7px 2px 10px 1px rgba(0, 0, 0, 0.3) inset;
 }
 .ballRight1{
     margin-left: 110px;
@@ -475,6 +480,7 @@ img.squareInsideImage2Img{
     height: 50px;
     background-color: #9ba29b;
     position: absolute;
+    box-shadow: -7px 2px 10px 1px rgba(0, 0, 0, 0.3) inset;
 }
 .bar1 {
     background-color: #a4332c;
@@ -549,4 +555,45 @@ img.squareInsideImage2Img{
     margin-left: 1298px;
     border: solid;
     cursor: pointer;
+}
+.up1{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 20px solid black;
+    margin-left: 5px;
+    /* margin-top: -20px; */
+    opacity:  0.5;
+}
+.up2{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid black;
+    margin-top: 76px;
+    margin-left: 5px;
+    opacity:  0.5;
+}
+.up3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 20px solid black;
+    border-bottom: 10px solid transparent;
+    margin-top: 3px;
+    opacity:  0.5;
+    position:  absolute;
+}
+.up4 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 20px solid black;
+    border-bottom: 10px solid transparent;
+    margin-left: 97px;
+    opacity:  0.5;
+    margin-top: 2px;
+    position:  absolute;
 }
